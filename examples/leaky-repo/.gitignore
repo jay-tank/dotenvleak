@@ -1,0 +1,3 @@
+# Only protects .env.local — misses plain ".env" and nested ".env.production"
+# files entirely, which is exactly the near-miss dotenvleak's DL002 flags.
+.env.local
